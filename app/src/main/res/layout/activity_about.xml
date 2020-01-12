@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA KELOMPOK"
+            android:gravity="center"
+            android:layout_marginTop="25sp"
+            android:textStyle="bold"
+            android:textColor="#003399"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Sidik Febrianto           (1703040085)"
+            android:textColor="#003399"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="55dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Fegi Abdul Rasyid      (1703040107)"
+            android:textColor="#003399"
+            android:layout_marginLeft="55dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Ari Putra Syaifulloh    (1703040108)"
+            android:layout_marginLeft="55dp"
+            android:textColor="#003399"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Akhsanul Maulana     (1703040108)"
+            android:layout_marginLeft="55dp"
+            android:textColor="#003399"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
